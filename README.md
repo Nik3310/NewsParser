@@ -30,7 +30,7 @@ Kõik vajalikud paketid on loetletud failis `requirements.txt`.
 
 ## Paigalda sõltuvused:
 ```bash
-pip install -r requirements.txt
+pip install requests beautifulsoup4
 
 ```
 
