@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5e0be2b-b973-49fb-9a2f-714d265a20c5" name="Changes" comment="README.md uuendus">
+    <list default="true" id="a5e0be2b-b973-49fb-9a2f-714d265a20c5" name="Changes" comment="README.md Paigaldus parandus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1768468068484</updated>
       <workItem from="1768468069432" duration="4812000" />
-      <workItem from="1768474700333" duration="1545000" />
+      <workItem from="1768474700333" duration="3052000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -135,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768472749403</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="README.md Paigaldus parandus">
+      <option name="closed" value="true" />
+      <created>1768478004300</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768478004300</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,9 +154,11 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="CLI uuendamine, skripti jagamine" />
     <MESSAGE value="README.md uuendus" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md uuendus" />
+    <MESSAGE value="README.md uuendusб" />
+    <MESSAGE value="README.md Paigaldus parandus" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md Paigaldus parandus" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/NewsParser$main.coverage" NAME="main Coverage Results" MODIFIED="1768475557800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/NewsParser$main.coverage" NAME="main Coverage Results" MODIFIED="1768477787387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
