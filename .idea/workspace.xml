@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5e0be2b-b973-49fb-9a2f-714d265a20c5" name="Changes" comment="requirements.txt oli eemaltadud" />
+    <list default="true" id="a5e0be2b-b973-49fb-9a2f-714d265a20c5" name="Changes" comment="Lisatutm pdf juhend">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/validator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/validator.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +112,8 @@
       <option name="presentableId" value="Default" />
       <updated>1768468068484</updated>
       <workItem from="1768468069432" duration="4812000" />
-      <workItem from="1768474700333" duration="3398000" />
+      <workItem from="1768474700333" duration="3481000" />
+      <workItem from="1768807180911" duration="262000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -149,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768480106966</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Lisatutm pdf juhend">
+      <option name="closed" value="true" />
+      <created>1768480503936</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768480503936</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +176,8 @@
     <MESSAGE value="README.md uuendusб" />
     <MESSAGE value="README.md Paigaldus parandus" />
     <MESSAGE value="requirements.txt oli eemaltadud" />
-    <option name="LAST_COMMIT_MESSAGE" value="requirements.txt oli eemaltadud" />
+    <MESSAGE value="Lisatutm pdf juhend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lisatutm pdf juhend" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NewsParser$main.coverage" NAME="main Coverage Results" MODIFIED="1768477787387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

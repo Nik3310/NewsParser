@@ -1,26 +1,36 @@
 class NimedeValideerija:
     """
-    Klass, mis kontrollib, kas leitud tekst on inimese nimi või mitte.
+    Klass nime tuvastamiseks ilma staatilise musta nimekirjata.
+    Kasutab struktuurset loogikat.
     """
-
-    def __init__(self):
-        self.must_nimekiri = [
-            "Reklaam", "Postimees", "Delfi", "Õhtuleht", "Telli", "Loe", "Fotod", "Video",
-            "Kuidas", "Miks", "Millal", "Kelle", "Milleks", "Kuna", "Kas", "Siis", "Vaata",
-            "Eesti", "Tallinn", "Tartu", "Pärnu", "Euroopa", "Vene", "Ukraina", "Soome"
-        ]
 
     def on_inimese_nimi(self, nime_string):
         """
-        Kontrollib nime vastavust reeglitele.
+        Kontrollib, kas tekst vastab nime struktuurile.
         """
         sonad = nime_string.split()
-        for sona in sonad:
-            if sona.strip(".,!-–\"„“") in self.must_nimekiri:
-                return False
 
-        # Välistame üksiku tähe nime lõpus (nt "Plaan B")
-        if len(sonad[-1]) == 1 and sonad[-1].isupper() and not nime_string.endswith('.'):
+        # Nimi peab olema 2-4 sõna pikk
+        if not (2 <= len(sonad) <= 4):
             return False
+
+        for sona in sonad:
+            # Puhastame sõna kirjavahemärkidest
+            puhas = sona.strip(".,!-–\"„“")
+
+            # Sõna peab algama suurtähega ja ülejäänud peavad olema väikesed
+            # (See välistab "REKLAAM" või "UUDISED" tüüpi pealkirjad)
+            if not (puhas[0].isupper() and puhas[1:].islower()):
+                # Lubame sidekriipsuga nimesid nagu Mari-Liis
+                if "-" in puhas:
+                    osad = puhas.split("-")
+                    if not all(o[0].isupper() for o in osad if o):
+                        return False
+                else:
+                    return False
+
+            # Välistame liiga lühikesed osad (nt "A B"), mis pole initsiaalid
+            if len(puhas) < 2 and not puhas.endswith('.'):
+                return False
 
         return True
